@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X & 0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>X & 0</h1>
+    <div class="player1"><h3>Player 1</h3><h4>X</h4><h4 id="p1Turn"></h4></div>
+    <div class="main-content" id ="mainContent">
+        <div class="divs" id="a1" onclick="myfunction1()">
+            <img src="blackscreen.jpg"  class="imgs" id="a1Img">
+        </div>
+        <div class="divs" id="a2" onclick="myfunction2(), winner()">
+            <img src="blackscreen.jpg"  class="imgs" id="a2Img">
+        </div>
+        <div class="divs" id="a3" onclick="myfunction3(), winner()">
+            <img src="blackscreen.jpg"  class="imgs" id="a3Img">
+        </div>
+
+        <div class="divs" id="b1" onclick="myfunction4(), winner()">
+            <img src="blackscreen.jpg"  class="imgs" id="b1Img">
+        </div>
+        <div class="divs" id="b2" onclick="myfunction5(), winner()">
+            <img src="blackscreen.jpg"  class="imgs" id="b2Img">
+        </div>
+        <div class="divs" id="b3" onclick="myfunction6(), winner()">
+            <img src="blackscreen.jpg"  class="imgs" id="b3Img">
+        </div>
+
+        <div class="divs" id="c1" onclick=" myfunction7(), winner()">
+            <img src="blackscreen.jpg"  class="imgs" id="c1Img">
+        </div>
+        <div class="divs" id="c2" onclick=" myfunction8(), winner()">
+            <img src="blackscreen.jpg"  class="imgs" id="c2Img">
+        </div>
+        <div class="divs" id="c3" onclick="myfunction9(), winner()">
+            <img src="blackscreen.jpg"  class="imgs" id="c3Img">
+        </div>
+    </div>
+    <div class="player2"><h3>Player 2</h3><h4>0</h4><h4 id="p2Turn"></h4></div>
+    <div class="winnerDiv" id="p1Wins">Player 1 wins!
+        <button class="resetb" id="resetb1" type="reset" onclick="resetbtn()">Reset</button>
+    </div>
+    <div class="winnerDiv" id="p2Wins">Player 2 wins!
+        <button class="resetb" id="resetb2" type="reset" onclick="resetbtn()">Reset</button>
+    </div>
+    <div class="winnerDiv" id="tie">No one wins, Tie!
+        <button class="resetb" id="resetb3" type="reset" onclick="resetbtn()">Reset</button>
+    </div>
+    <script src="./script2.js"></script>
+</body>
+</html>

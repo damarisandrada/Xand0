@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h1{
+    width: 100vw;
+    text-align: center;
+    color: blue;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.main-content{
+    height: 456px;
+    width: 501px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+#p1Wins{
+    height: 500px;
+    width: 510px;
+    background-color: black;
+    position: absolute;
+    margin-top: 10.5%;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    text-indent: 20px;
+    color: blueviolet;
+}
+#resetb1{
+    height: 5vh;
+    width: 10vw;
+    background-color: blueviolet;
+    text-align: center;  
+}
+#p2Wins{
+    height: 500px;
+    width: 510px;
+    background-color: black;
+    position: absolute;
+    margin-top: 10.5%;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    text-indent: 20px;
+    color: orangered;
+}
+#resetb2{
+    height: 5vh;
+    width: 10vw;
+    background-color: orangered;
+    text-align: center;  
+}
+#tie{
+    height: 500px;
+    width: 510px;
+    background-color: black;
+    position: absolute;
+    margin-top: 10.5%;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    text-indent: 20px;
+    color: blue;
+}
+#resetb3{
+    height: 5vh;
+    width: 10vw;
+    background-color: blue;
+    text-align: center;  
+}
+
+.divs{
+    height: 150px;
+    width: 165px;
+}
+#a1{
+   
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+#a2{
+    
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+#a3{
+    border-bottom: 3px solid white;
+}
+#b1{
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+#b2{
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+#b3{
+    border-bottom: 3px solid white;
+}
+#c1{
+    border-right: 3px solid white;
+    
+}
+#c2{
+    border-right: 3px solid white;
+}
+#c3{
+    background-color: black;
+}
+
+.imgs{
+    height: 1px;
+    width: 1px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+ .player1{
+     height: 20vh;
+     width: 10vw;
+     
+     color: blueviolet;
+     text-align: center;
+ }
+ .player2{
+    height: 20vh;
+    width: 10vw;
+    
+    color: orangered;
+    text-align: center;
+}
